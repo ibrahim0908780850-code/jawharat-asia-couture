@@ -66,6 +66,12 @@ img { display: block; max-width: 100%; }
 .site-header--scrolled { background: rgba(21,20,18,.9); border-bottom-color: var(--line-dark); backdrop-filter: blur(16px); }
 .header-inner { width: min(100% - 72px, 1420px); min-height: 86px; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .brand-lockup { display: inline-flex; align-items: center; gap: 12px; direction: rtl; min-width: 195px; }
+.brand-logo { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; width: 145px; color: currentColor; direction: ltr; }
+.brand-logo__mark { display: block; width: 54px; height: auto; }
+.brand-logo__wordmark { margin-top: 4px; white-space: nowrap; font: 500 9px/1 var(--serif); letter-spacing: .16em; }
+.brand-logo__wordmark span { margin-inline-start: 10px; }
+.brand-logo--compact { width: 78px; }
+.brand-logo--compact .brand-logo__mark { width: 62px; }
 .brand-mark { display: grid; place-items: center; width: 35px; height: 35px; border: 1px solid var(--gold); color: var(--gold-light); font: 400 25px/1 var(--serif); border-radius: 50%; }
 .brand-lockup strong { display: block; font-size: 16px; font-weight: 600; line-height: 1.2; white-space: nowrap; }
 .brand-lockup small { display: block; margin-top: 2px; color: rgba(255,255,255,.58); font-size: 9px; letter-spacing: .14em; }
@@ -300,7 +306,7 @@ img { display: block; max-width: 100%; }
 .footer-grid a { color: var(--muted); font-size: 12px; transition: color .2s; }
 .footer-grid a:hover { color: var(--gold-light); }
 .footer-monogram { justify-self: end; color: var(--gold); font: 85px/.7 var(--serif); text-align: center; }
-.footer-monogram span { display: block; margin-top: 12px; color: var(--muted); font: 8px var(--sans); letter-spacing: .35em; }
+.footer-monogram > span { display: block; margin-top: 12px; color: var(--muted); font: 8px var(--sans); letter-spacing: .35em; }
 .footer-bottom { display: flex; justify-content: space-between; padding-top: 22px; border-top: 1px solid var(--line-dark); color: #5d5952; font: 9px var(--sans); }
 .whatsapp-float { position: fixed; z-index: 40; inset-inline-start: 25px; bottom: 25px; display: grid; place-items: center; width: 48px; height: 48px; border: 1px solid rgba(216,191,146,.75); border-radius: 50%; background: rgba(21,20,18,.88); color: var(--gold-light); backdrop-filter: blur(10px); transition: transform .2s, background .2s; }
 .whatsapp-float:hover { transform: translateY(-4px); background: var(--gold); color: var(--ink); }
@@ -332,6 +338,9 @@ img { display: block; max-width: 100%; }
   .site-header { background: rgba(21,20,18,.9); border-bottom-color: var(--line-dark); }
   .header-inner { width: min(100% - 32px, 680px); min-height: 72px; }
   .brand-lockup { min-width: 0; }
+  .brand-logo { width: 112px; }
+  .brand-logo__mark { width: 44px; }
+  .brand-logo__wordmark { font-size: 7px; letter-spacing: .13em; }
   .brand-lockup strong { font-size: 14px; }
   .brand-lockup small { font-size: 8px; }
   .desktop-nav, .header-appointment { display: none; }

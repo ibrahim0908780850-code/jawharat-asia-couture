@@ -2,6 +2,20 @@ import { ArrowUpLeft, ChevronLeft, Gem, Maximize2, Sparkles, Scissors } from "lu
 import type { ReactNode } from "react";
 import type { SiteImage } from "@/lib/site-config";
 
+export function BrandLogo({ compact = false }: { compact?: boolean }) {
+  return (
+    <span className={`brand-logo ${compact ? "brand-logo--compact" : ""}`} aria-label="JAWAHARAH ASIA">
+      <svg className="brand-logo__mark" viewBox="0 0 92 74" role="img" aria-label="JAWAHARAH ASIA monogram">
+        <path d="M20 10C20 10 20 46 20 53C20 60 16 64 9 64" fill="none" stroke="currentColor" strokeWidth="9" strokeLinecap="square" />
+        <circle cx="7" cy="68" r="3.7" fill="currentColor" />
+        <path d="M49 10L80 64" fill="none" stroke="currentColor" strokeWidth="9" strokeLinecap="square" />
+        <path d="M49 10L38 29" fill="none" stroke="currentColor" strokeWidth="9" strokeLinecap="square" />
+      </svg>
+      {!compact ? <span className="brand-logo__wordmark">JAWAHARAH <span>ASIA</span></span> : null}
+    </span>
+  );
+}
+
 export function SectionHeading({ eyebrow, title, note, align = "start" }: { eyebrow: string; title: ReactNode; note?: string; align?: "start" | "center" }) {
   return (
     <div className={`section-heading ${align === "center" ? "section-heading--center" : ""}`}>
