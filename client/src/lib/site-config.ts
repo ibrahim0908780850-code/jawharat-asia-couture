@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "جوهرة آسيا",
   city: "الرياض، المملكة العربية السعودية",
   mapUrl: "https://maps.app.goo.gl/T4w6JVce7peN22jS6?g_st=com.google.maps.preview.copy",
-  whatsappNumber: "",
+  whatsappNumber: "966500144730",
   whatsappMessage: "السلام عليكم، أرغب في الاستفسار عن تصميم وتفصيل فستان وحجز موعد.",
   socialLinks: {
     tiktok: "https://www.tiktok.com/@jawaharahasiaa?_r=1&_t=ZS-99Yhf9Mp3yM",
@@ -12,7 +12,7 @@ export const siteConfig = {
   images: {
     hero: "/manus-storage/bridal-mountain_1d51e541.jpg",
     bridal: [
-      "/manus-storage/bridal-mountain_1d51e541.jpg",
+      "/manus-storage/bridal-real_864c1197.jpg",
       "/manus-storage/ballgown_4d316a45.jpg",
       "/manus-storage/luxury-dress_633ad1c6.jpg",
     ],
@@ -52,7 +52,7 @@ export type SiteImage = { src: string; alt: string; label?: string };
 
 export const galleryItems: SiteImage[] = [
   { src: siteConfig.images.featured[0], alt: "فستان سهرة داكن بتصميم تحريري", label: "Noir Silk" },
-  { src: siteConfig.images.featured[1], alt: "فستان زفاف فاخر بذيل طويل", label: "The Veil" },
+  { src: siteConfig.images.bridal[0], alt: "فساتين زفاف مطرزة داخل الأتيليه", label: "Bridal Atelier" },
   { src: siteConfig.images.featured[2], alt: "فستان سهرة أحمر بتفاصيل راقية", label: "Rouge Atelier" },
   { src: siteConfig.images.atelier, alt: "فستان سهرة مزين بتطريزات يدوية داخل الأتيليه", label: "Atelier Detail" },
 ];
