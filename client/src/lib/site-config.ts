@@ -32,7 +32,7 @@ export const siteConfig = {
       "/manus-storage/fabric-black_60de5fc3.jpg",
       "/manus-storage/luxury-dress_633ad1c6.jpg",
     ],
-    atelier: "/manus-storage/atelier_e6426245.jpg",
+    atelier: "/manus-storage/atelier-real_7760cf41.jpg",
     booking: "/manus-storage/editorial-red_b3104b39.jpg",
     atelierReel: "/manus-storage/atelier-reel_65f887c3.mp4",
   },
@@ -54,7 +54,7 @@ export const galleryItems: SiteImage[] = [
   { src: siteConfig.images.featured[0], alt: "فستان سهرة داكن بتصميم تحريري", label: "Noir Silk" },
   { src: siteConfig.images.featured[1], alt: "فستان زفاف فاخر بذيل طويل", label: "The Veil" },
   { src: siteConfig.images.featured[2], alt: "فستان سهرة أحمر بتفاصيل راقية", label: "Rouge Atelier" },
-  { src: siteConfig.images.featured[3], alt: "فستان زفاف كلاسيكي بإطلالة فخمة", label: "Lumière" },
+  { src: siteConfig.images.atelier, alt: "فستان سهرة مزين بتطريزات يدوية داخل الأتيليه", label: "Atelier Detail" },
 ];
 
 export const fabricItems: SiteImage[] = [
