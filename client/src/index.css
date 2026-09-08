@@ -271,6 +271,19 @@ img { display: block; max-width: 100%; }
 .booking-form select option { color: var(--ink); }
 .booking-form input:focus, .booking-form select:focus { border-color: #8f6d64; }
 .form-privacy { color: #806f6b; font-size: 10px; text-align: center; }
+.reference-upload { display: grid; gap: 10px; }
+.reference-upload__label { display: flex; align-items: baseline; gap: 8px; color: #5e504c; font-size: 11px; }
+.reference-upload__label small { color: #9d8881; font-size: 10px; }
+.reference-upload__drop { position: relative; display: block; min-height: 90px; border: 1px dashed rgba(91,72,67,.42); transition: border-color .2s, background .2s; cursor: pointer; }
+.reference-upload__drop:hover { border-color: #8f6d64; background: rgba(255,255,255,.12); }
+.reference-upload__drop input { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; opacity: .01; cursor: pointer; }
+.reference-upload__content { position: relative; z-index: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; min-height: 90px; color: #8f6d64; text-align: center; pointer-events: none; }
+.reference-upload__content strong { color: #5e504c; font-size: 12px; font-weight: 600; }
+.reference-upload__content small { color: #806f6b; font-size: 10px; }
+.reference-preview { display: flex; align-items: center; gap: 10px; min-width: 0; color: #5e504c; font-size: 10px; }
+.reference-preview img { width: 45px; height: 45px; flex: 0 0 auto; object-fit: cover; }
+.reference-preview span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.reference-preview button { display: grid; place-items: center; flex: 0 0 auto; width: 24px; height: 24px; margin-inline-start: auto; color: #8f6d64; border: 1px solid rgba(91,72,67,.3); border-radius: 50%; }
 .form-success { min-height: 330px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
 .form-success > span { display: grid; place-items: center; width: 58px; height: 58px; color: var(--ink); background: var(--gold); border-radius: 50%; }
 .form-success h3 { margin: 28px 0 8px; font-size: 25px; font-weight: 500; }
