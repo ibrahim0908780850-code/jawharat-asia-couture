@@ -2,11 +2,11 @@ export const siteConfig = {
   brandName: "جوهرة آسيا لتصميم الأزياء",
   shortName: "جوهرة آسيا",
   city: "الرياض، المملكة العربية السعودية",
-  mapUrl: "https://maps.app.goo.gl/T4w6JVce7peN22jS6",
+  mapUrl: "https://maps.app.goo.gl/T4w6JVce7peN22jS6?g_st=com.google.maps.preview.copy",
   whatsappNumber: "",
   whatsappMessage: "السلام عليكم، أرغب في الاستفسار عن تصميم وتفصيل فستان وحجز موعد.",
   socialLinks: {
-    tiktok: "https://www.tiktok.com/@jawaharahasiaa",
+    tiktok: "https://www.tiktok.com/@jawaharahasiaa?_r=1&_t=ZS-99Yhf9Mp3yM",
     snapchat: "https://www.snapchat.com/add/gege_220",
   },
   images: {
@@ -34,6 +34,7 @@ export const siteConfig = {
     ],
     atelier: "/manus-storage/atelier_e6426245.jpg",
     booking: "/manus-storage/editorial-red_b3104b39.jpg",
+    atelierReel: "/manus-storage/atelier-reel_65f887c3.mp4",
   },
   collections: [
     { number: "01", title: "فساتين الزفاف", subtitle: "Bridal Collection", image: "/manus-storage/bridal-mountain_1d51e541.jpg", href: "#bridal" },

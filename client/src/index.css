@@ -174,6 +174,15 @@ img { display: block; max-width: 100%; }
 .fabric-footer { margin-top: 24px; color: var(--muted); }
 .fabric-footer__line { width: 110px; height: 1px; background: var(--gold); opacity: .7; }
 
+.atelier-reel { padding: 145px 0; border-top: 1px solid var(--line-dark); }
+.atelier-reel__layout { display: grid; grid-template-columns: .78fr 1fr; gap: 12%; align-items: center; }
+.atelier-reel__copy h2 { margin: 0; font-size: clamp(52px, 7vw, 105px); line-height: .88; font-weight: 500; letter-spacing: -.07em; }
+.atelier-reel__copy h2 em { color: var(--gold-light); font-family: var(--serif); font-style: italic; }
+.atelier-reel__copy > p:not(.eyebrow) { max-width: 300px; margin: 31px 0 37px; color: var(--muted); font-size: 13px; line-height: 2; }
+.atelier-reel__video-wrap { position: relative; width: min(100%, 420px); justify-self: center; background: #24211e; }
+.atelier-reel__video { display: block; width: 100%; aspect-ratio: 9 / 16; object-fit: cover; }
+.atelier-reel__tag { position: absolute; inset-inline-start: 18px; bottom: 18px; color: var(--gold-light); font: 9px var(--sans); letter-spacing: .17em; pointer-events: none; }
+
 /* Experience + featured */
 .experience { padding: 150px 0; }
 .experience-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 9%; align-items: center; }
@@ -350,6 +359,9 @@ img { display: block; max-width: 100%; }
   .process-step h3 { margin-top: 60px; }
   .couture-cta { margin-top: 0; padding: 38px 25px; }
   .fabric-gallery { height: 330px; margin-top: 50px; }
+  .atelier-reel { padding: 100px 0; }
+  .atelier-reel__layout { grid-template-columns: 1fr; gap: 55px; }
+  .atelier-reel__video-wrap { width: min(100%, 330px); }
   .experience-layout { grid-template-columns: 1fr; gap: 60px; }
   .experience-image { height: 500px; }
   .pillars { margin-top: 45px; }
@@ -408,6 +420,7 @@ img { display: block; max-width: 100%; }
   .couture-cta .button { margin-top: 30px; }
   .fabric-filters { flex-wrap: wrap; gap: 10px 18px; }
   .fabric-gallery { height: 240px; grid-template-columns: 1.15fr .85fr .85fr; gap: 7px; }
+  .atelier-reel__video-wrap { width: min(100%, 285px); }
   .fabric-footer { gap: 10px; letter-spacing: .08em; }
   .fabric-footer__line { flex: 1; }
   .experience-image { height: 390px; }

@@ -122,6 +122,21 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="atelier-reel section-dark" id="atelier-reel">
+          <div className="container atelier-reel__layout">
+            <div className="atelier-reel__copy">
+              <p className="eyebrow"><span className="eyebrow-line" />من قلب الأتيليه</p>
+              <h2>التفاصيل<br /><em>تتكلم.</em></h2>
+              <p>لقطة قريبة من تطريزاتنا اليدوية؛ لأن جودة الفستان تُرى في التفاصيل التي تلمسينها.</p>
+              <a href={siteConfig.socialLinks.tiktok} target="_blank" rel="noreferrer" className="text-link">شاهدي المزيد على TikTok <ArrowUpLeft size={16} /></a>
+            </div>
+            <div className="atelier-reel__video-wrap">
+              <video className="atelier-reel__video" src={siteConfig.images.atelierReel} poster={siteConfig.images.fabrics[0]} autoPlay muted loop playsInline controls aria-label="فيديو تفاصيل تطريز فستان سهرة" />
+              <span className="atelier-reel__tag">ATELIER REEL / 01</span>
+            </div>
+          </div>
+        </section>
+
         <section className="experience section-cream" id="experience">
           <div className="container"><div className="experience-layout"><div className="experience-image"><img src={siteConfig.images.atelier} alt="مساحة أتيليه لفساتين الزفاف" loading="lazy" /><span>THE ATELIER</span></div><div className="experience-copy"><SectionHeading eyebrow="Atelier Experience" title={<>تجربة<br /><em>تبدأ منكِ.</em></>} note="في كل لقاء، نترك مساحة كافية لفكرتك كي تظهر كما هي." /><div className="pillars">{atelierPillars.map((pillar) => <div className="pillar" key={pillar.title}><div className="pillar__icon"><PillarIcon type={pillar.icon} /></div><div><h3>{pillar.title}</h3><p>{pillar.text}</p></div></div>)}</div><a href="#appointment" className="text-link text-link--dark">احجزي استشارتك <ArrowLeft size={17} /></a></div></div></div>
         </section>
