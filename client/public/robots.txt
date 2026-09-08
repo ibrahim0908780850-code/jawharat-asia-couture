@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jawharat-asia.example/sitemap.xml
