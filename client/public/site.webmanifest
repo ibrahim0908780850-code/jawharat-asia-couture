@@ -1,0 +1,17 @@
+{
+  "name": "جوهرة آسيا لتصميم الأزياء",
+  "short_name": "جوهرة آسيا",
+  "description": "أتيليه سعودي لتصميم وتفصيل فساتين الزفاف والسهرة حسب الطلب في الرياض.",
+  "lang": "ar-SA",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#151412",
+  "theme_color": "#151412",
+  "icons": [{
+    "src": "/favicon.svg",
+    "sizes": "any",
+    "type": "image/svg+xml",
+    "purpose": "any maskable"
+  }]
+}
